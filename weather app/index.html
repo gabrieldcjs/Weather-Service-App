@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Sans&family=Inter:wght@400;500;700&family=Open+Sans&display=swap" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <h1>Weather Service</h1>
+  <div class="container">
+    <div class="weahter-input">
+      <h3>Enter a city:</h3>
+      <input
+        class="city-input"
+        type="text"
+        placeholder="Ex: São Paulo, New York" />
+      <button class="search-btn">Search</button>
+      <div class="separator"></div>
+      <button class="current-location">Current Location</button>
+    </div>
+    <div class="weather-data">
+      <div class="current-weather">
+        <div class="details">
+          <h2>________(____)</h2>
+          <h4>Temperature: _____°C</h4>
+          <h4>Wind:___M/S</h4>
+          <h4>Humidity:_____%</h4>
+        </div>
+      </div>
+      <div class="days-forecast">
+        <h3 class="forecast-heading">3 day forecast:</h3>
+        <ul class="weather-cards">
+          <li class="card">
+            <h3>(____)</h3>
+            <h4>Temperature: _____°C</h4>
+            <h4>Wind:___M/S</h4>
+            <h4>Humidity:_____%</h4>
+          </li>
+          <li class="card">
+            <h3>(____)</h3>
+            <h4>Temperature: _____°C</h4>
+            <h4>Wind:___M/S</h4>
+            <h4>Humidity:_____%</h4>
+          </li>
+          <li class="card">
+            <h3>(____)</h3>
+            <h4>Temperature: _____°C</h4>
+            <h4>Wind:___M/S</h4>
+            <h4>Humidity:_____%</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <body></body>
+</html>
